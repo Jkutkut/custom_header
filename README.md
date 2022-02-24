@@ -6,7 +6,21 @@ This project was based on the [42 header](https://github.com/42Paris/42header) r
 
 Logic to have a custom header for vim editor.
 
-![camera header](res/img/camera_example.png)
+
+	/* ************************************************************************** */
+	/*                                                                            */
+	/*                                                           .----.           */
+	/*                                                           |[XX]|           */
+	/*                                                   _.==.___/    \_______    */
+	/*                                                  | __ ____.-""-. ______|   */
+	/*   42.c                                           |[__]   /."""".\ _    |   */
+	/*                                                  |      // /""\ \\_)   |   */
+	/*   By: jre-gonz <jre-gonz@student.42madrid.com>   |      \\ \__/ //     |   */
+	/*                                                  |       \\.__.//      |   */
+	/*   Created: 2022/02/24 09:30:52 by jre-gonz       |        "-..-"       |   */
+	/*   Updated: 2022/02/24 09:55:25 by jre-gonz        `-------------------'    */
+	/*                                                                            */
+	/* ************************************************************************** */
 
 
 ### **UNIX Setup**
@@ -36,12 +50,25 @@ In **NORMAL** mode you can use `:Customheader` or simply press the shortcut <kbd
 
 ## **Modify header**
 
-### Change activation key:
+### **Change activation key**:
 Open your `~/plugin/customheader.vim` file and change the following line (located at the end):
 
 	map <F2> :Customheader<CR>
 
 Modify the key you want to use (default is <kbd>F2</kbd>).
+
+
+### **Change command**:
+Open your `~/plugin/customheader.vim` file and change the following line (located at the end):
+
+	command! Customheader call s:customheader ()
+
+Modify the key you want to use (default is `Customheader`).
+
+Remember to also chage the following line:
+
+	map <F2> :Customheader<CR>
+
 
 ### **Change header**
 Open your `~/plugin/customheader.vim` file and change the following line (located at the end):

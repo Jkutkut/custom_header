@@ -1,5 +1,7 @@
 # Custom Header
 
+[VERSIÓN EN ESPAÑOL](./README.es.md)
+
 This project was based on the [42 header](https://github.com/42Paris/42header) repository. Full credit to the original authors for developing the logic.
 
 ### **Description**
@@ -63,7 +65,7 @@ Open your `~/plugin/customheader.vim` file and change the following line (locate
 
 	command! Customheader call s:customheader ()
 
-Modify the key you want to use (default is `Customheader`).
+Modify the command you want to use (default is `Customheader`).
 
 Remember to also chage the following line:
 
@@ -71,7 +73,7 @@ Remember to also chage the following line:
 
 
 ### **Change header**
-Open your `~/plugin/customheader.vim` file and change the following line (located at the end):
+Open your `~/plugin/customheader.vim` file and change the following line (located at the beginning):
 
 	let s:asciiart = [
 		\'         .----.        ',

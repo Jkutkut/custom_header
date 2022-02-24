@@ -23,7 +23,7 @@ fi
 
 mkdir -p ~/.vim/plugin
 
-# Add stdheader to vim plugins
-cp plugin/stdheader.vim ~/.vim/plugin/
+# Add customheader to vim plugins
+cp plugin/customheader.vim ~/.vim/plugin/
 
 source ~/.zshrc

@@ -1,8 +1,9 @@
 # Custom Header
 
-[VERSIÓN EN ESPAÑOL](./README.es.md)
-
 This project was based on the [42 header](https://github.com/42Paris/42header) repository. Full credit to the original authors for developing the logic.
+This projects extends the logic to enable custom header files.
+
+[VERSIÓN EN ESPAÑOL](./README.es.md)
 
 ### **Description**
 
